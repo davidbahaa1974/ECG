@@ -68,3 +68,17 @@ The script prints:
 
 - Heart rate classification thresholds: **Bradycardia** (< 60 BPM), **Normal** (60–100 BPM), **Tachycardia** (> 100 BPM)
 - The `.dat` format decoder is specific to MIT-BIH format 212 (12-bit resolution)
+
+## Examples
+
+**Normal rhythm — Record 100** (Avg 75.1 BPM)
+![Normal 1](Normal_1.png)
+
+**Normal rhythm — Record 101** (Avg 66.4 BPM)
+![Normal 2](Normal_2.png)
+
+**Bradycardia — Record 106** (Avg 59.1 BPM)
+![Bradycardia 1](Bradycardia_1.png)
+
+**Bradycardia — Record 202** (Avg 52.8 BPM)
+![Bradycardia 2](Bradycardia_2.png)
